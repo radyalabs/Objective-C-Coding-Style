@@ -22,7 +22,7 @@ Person *person = self.company.person;
 ```
 
 **Bracket notation**
-```java
+```objc
 [self.view setBackgroundColor:[UIColor redColor]];
 [self.person setFirstName:@"Johnny"];
 ```
