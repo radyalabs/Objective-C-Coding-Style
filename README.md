@@ -22,7 +22,7 @@ Person *person = self.company.person;
 ```
 
 **Bracket notation**
-```objc
+```java
 [self.view setBackgroundColor:[UIColor redColor]];
 [self.person setFirstName:@"Johnny"];
 ```
@@ -55,7 +55,7 @@ Property definitions should be used in place of naked instance variables wheneve
 ```
 
 ## CGFloat and NSInteger
-Always use `CGFloat` instead of `float` or `double` 
+Always use `CGFloat` instead of `float` or `double`
 
 and `NSInteger` instead of `int`
 
@@ -78,7 +78,7 @@ static const CGFloat kHeaderHeight = 44.0f;
 
 ## Braces {...}
 Put open brace `{` in line with method invocations.
-Give new line before close brace `{`
+Give new line before close brace `}`
 
 **For example:**
 ```objc
@@ -179,4 +179,4 @@ Use prefix `Notif.` for `NSNotificationCenter` name.
 ```objc
 [[NSUserDefaults standardUserDefaults] setObject:@"RadyaLabs" forKey:@"UserDef.COMPANY_NAME"];
 [[NSNotificationCenter defaultCenter] postNotificationName:@"Notif.STOP_PLAYING_MOVIE" object:nil];
-``` 
+```
